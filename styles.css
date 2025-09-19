@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(
+    to right,
+    rgba(158, 71, 71, 0.8),
+    rgba(164, 115, 177, 0.8),
+    rgba(35, 183, 241, 0.8)
+  );
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: rgba(158, 71, 71, 0.8);
+  font-size: 3rem;
+  padding: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 6px rgba(128, 28, 28, 0.6);
+}
