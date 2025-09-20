@@ -18,9 +18,8 @@
     <main
       class="container p-5 d-flex flex-column align-items-center justify-content-center"
     >
-      <h2 class="text-center mb-4">Valida tu correo electrónico</h2>
-
-      <form id="form" class="row col-md-6">
+      <form id="formemail" class="row col-md-6">
+        <p class="mb-4">Valida tu correo electrónico, si falta @ te dirá =)</p>
         <div class="pb-3">
           <input
             type="text"
@@ -28,6 +27,28 @@
             class="form-control"
             placeholder="Ingresa el correo electrónico"
           />
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-4 d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary w-100">
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </form>
+      <form id="formnumeros" class="row col-md-6 mt-5">
+        <div class="pb-3">
+          <label for="parrafo" class="form-label">
+            Escribe algo, la experesión regular va a contar los
+            <strong>números enteros</strong>:)
+          </label>
+          <textarea
+            id="parrafo"
+            class="form-control"
+            rows="4"
+            placeholder="Escribe acá"
+          ></textarea>
         </div>
 
         <div class="row justify-content-center">
